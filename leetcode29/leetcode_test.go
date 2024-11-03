@@ -202,7 +202,51 @@ func shoppingOffers(price []int, special [][]int, needs []int) int {
 		}
 	}
 
+	// 加入考虑组合之间相互 搭配的问题
+
+	var dfs func(needs []int) (minPrice int)
+	dp := map[string]int{}
+	dfs = func(curNeeds []int) (minPrice int) {
+		if res, has := dp[NeedStruct(curNeeds).String()]; has {
+			return res
+		}
+		for i, need := range curNeeds {
+			minPrice += price[i] * need
+		}
+
+		nextNeeds := make([]int, len(curNeeds))
+	outer:
+		for _, s := range special {
+			for i, need := range curNeeds {
+				if s[i] > need {
+					// break ?????
+					continue outer
+				}
+				nextNeeds[i] = need - s[i]
+			}
+			minPrice = min(minPrice, dfs(nextNeeds)+s[len(curNeeds)])
+		}
+		dp[NeedStruct(curNeeds).String()] = minPrice
+		return
+	}
+
+	otherMin := dfs(needs)
+
+	if otherMin < cost {
+		return otherMin
+	}
+
 	return cost
+}
+
+type NeedStruct []int
+
+func (a NeedStruct) String() string {
+	key := ""
+	for _, v := range a {
+		key += strconv.Itoa(v)
+	}
+	return key
 }
 
 func filterSpecials(special [][]int, needs []int) [][]int {
