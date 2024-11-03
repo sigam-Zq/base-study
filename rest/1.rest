@@ -1,0 +1,994 @@
+
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos/cshj3mrnkb2md7j8bgc0' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2409140 MicroMessenger/8.0.5 Language/zh_CN webview/' \
+  -H 'platform: mp-weixin' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA1MzI2ODcsImlhdCI6MTczMDQ0NjI4NywibmJmIjoxNzMwNDQ2Mjg3LCJzdWIiOiJjc2JqczBybmtiMm12MGVpdTUzMCJ9.k6CLBdyPXUe_BLBZfB_lL5tw5ZFvTL4lfATF_VsslyzSflBrewko604STUqFFe8rjc6ChixBk_r2OlfVmnp_cQ' \
+  -H 'content-type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://servicewechat.com/wxf529d08d126a076e/devtools/page-frame.html' \
+  --compressed
+
+
+
+###
+curl 'https://shunhuaroad.dev.nnzhineng.com:20111/api/v1/populationevent/population-events/wx?current=1&pageSize=10&status_list=1&is_see_by_self=1&wx_open_id=o9gcF7cwaS-77dXKl3U86oOhBcCQ&event_name_or_desc=狗' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2407120 MicroMessenger/8.0.5 Language/zh_CN webview/' \
+  -H 'platform: mp-weixin' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA1MTQzNjUsImlhdCI6MTczMDQyNzk2NSwibmJmIjoxNzMwNDI3OTY1LCJzdWIiOiJjc2ZodjdibmtiMm1ibmNuYnMwMCJ9.CsR9vgUluQjFb-X0f6q0iZWsE4Yl2ZEMZp15hueNByEfedTLNiYNo1E_Sxz9m4Lgkigv07wZk8ykkekBNfgyMg' \
+  -H 'content-type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://servicewechat.com/wxf529d08d126a076e/devtools/page-frame.html' \
+  --compressed
+
+
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos?current=1&pageSize=10&status=0' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2409140 MicroMessenger/8.0.5 Language/zh_CN webview/' \
+  -H 'platform: mp-weixin' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAzNTM2ODEsImlhdCI6MTczMDI2NzI4MSwibmJmIjoxNzMwMjY3MjgxLCJzdWIiOiJjc2JqczBybmtiMm12MGVpdTUzMCJ9.zflhOIxBtFyjn902qbaYfo5Kpu42REYliSKprfeigp22z8-okioROY2VXRNJentFRvWZfFKebTxe9nIqpLC3dg' \
+  -H 'content-type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://servicewechat.com/wxf529d08d126a076e/devtools/page-frame.html' \
+  --compressed
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances/statistics_xbkq?month=2024-10' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA0MjM0MjMsImlhdCI6MTczMDMzNzAyMywibmJmIjoxNzMwMzM3MDIzLCJzdWIiOiJyb290In0.1dESdViWXnGqrEyfx-ac-h68yJA-leQfNISFC94tog-4VJUD0vtcggeL5JgRxlPNFGgKXhuN9Jr_3IzjLrIDbQ' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/attendance/statistics' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://192.168.3.2:8000/api/v1/loc/attendances/statistics_sbkq?month=2024-10' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA0MjM0MjMsImlhdCI6MTczMDMzNzAyMywibmJmIjoxNzMwMzM3MDIzLCJzdWIiOiJyb290In0.1dESdViWXnGqrEyfx-ac-h68yJA-leQfNISFC94tog-4VJUD0vtcggeL5JgRxlPNFGgKXhuN9Jr_3IzjLrIDbQ' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/attendance/statistics' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/users/list?current=1&pageSize=10' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAyNjk4MTUsImlhdCI6MTczMDE4MzQxNSwibmJmIjoxNzMwMTgzNDE1LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.35RdrdDvR91H5JiEHEH57guvC-NGqcB5IZbI-fRickQkMwAqT1DjLcgUNmPHHrVDslMlhBug3Cz7B8UI9f-_Rg' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/system/user' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos/csg7qg3nkb2meaplu5cg' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAyNjg4NDUsImlhdCI6MTczMDE4MjQ0NSwibmJmIjoxNzMwMTgyNDQ1LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.37VxjspcfVJw4RsDc1o1u_oaG6Vo6ot2LAPhNLd3qFDJf2MyQNztSW9T7xghqYV3uxxNfd5tWOWVA12dLzMf1w' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/propertyNotice' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/holiday-year-setings/get-history/csdll987bmcm2i2srm0g' \
+-X GET \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/holiday-year-setings/csdll987bmcm2i2srm0g'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+
+
+###
+curl 'http://localhost:8040/api/v1/threeactuals/buildings/tree/co9k79jnkb2mjq32adkg' \
+-H 'Connection: keep-alive' \
+-H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2407120 MicroMessenger/8.0.5 Language/zh_CN webview/' \
+-H 'platform: mp-weixin' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAxNzkzNTcsImlhdCI6MTczMDA5Mjk1NywibmJmIjoxNzMwMDkyOTU3LCJzdWIiOiJjc2ZodjdibmtiMm1ibmNuYnMwMCJ9.8M33r1RZXQH-GoTBN-zbBTAl0mJKsi_3A1kx6rfbzWjOnka04OaZ36zLvkhSjKwhN_acg73AbCmuzHZ_65kSeQ' \
+-H 'content-type: application/json' \
+-H 'Accept: */*' \
+-H 'Sec-Fetch-Site: cross-site' \
+-H 'Sec-Fetch-Mode: cors' \
+-H 'Sec-Fetch-Dest: empty' \
+-H 'Referer: https://servicewechat.com/wxf529d08d126a076e/devtools/page-frame.html' \
+--compressed
+
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-policy-man-infos?current=1&pageSize=10&notice_type=2&plot_id_list=cs2a8j3511in6dsu7rg0' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAxNzg0NTksImlhdCI6MTczMDA5MjA1OSwibmJmIjoxNzMwMDkyMDU5LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.NVUK01l4FVT956R0hqRRsvbMj2VjXVELqacc34wFtk5FUFT_UEMBkKGdkid3l_83VCKhRwcaJJP0ybLGI7iU3Q' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/communityService' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-policy-man-infos?current=1&pageSize=10&notice_type=1&plot_id_list=cs2a8j3511in6dsu7rg0' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAxNzg0NTksImlhdCI6MTczMDA5MjA1OSwibmJmIjoxNzMwMDkyMDU5LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.NVUK01l4FVT956R0hqRRsvbMj2VjXVELqacc34wFtk5FUFT_UEMBkKGdkid3l_83VCKhRwcaJJP0ybLGI7iU3Q' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/propertyNotice' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification?current=1&pageSize=10&audit_status=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAxNzgxNTUsImlhdCI6MTczMDA5MTc1NSwibmJmIjoxNzMwMDkxNzU1LCJzdWIiOiJyb290In0.OaDiSSSuuiW7N09tKBYcIk023JHoJGsNf4jPl6kRjVGygH28uNQu4Pdu_DN3HOS3Fa67xQeZ8M6cLXZSFpPo8Q' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/homeAuth/pendingReview' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/threeactuals/rooms/cs6vokb511ijvpkfumog' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAxNzgxNTUsImlhdCI6MTczMDA5MTc1NSwibmJmIjoxNzMwMDkxNzU1LCJzdWIiOiJyb290In0.OaDiSSSuuiW7N09tKBYcIk023JHoJGsNf4jPl6kRjVGygH28uNQu4Pdu_DN3HOS3Fa67xQeZ8M6cLXZSFpPo8Q' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/homeAuth/pendingReview' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos/by/wx-user?current=1&pageSize=10&publish_time_start=2023-11-28T11:03:01Z&publish_time_end=2024-10-28T11%3A03%3A01%2B08%3A00' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2409140 MicroMessenger/8.0.5 Language/zh_CN webview/' \
+  -H 'platform: mp-weixin' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzAxNjQ2NTMsImlhdCI6MTczMDA3ODI1MywibmJmIjoxNzMwMDc4MjUzLCJzdWIiOiJjc2JqczBybmtiMm12MGVpdTUzMCJ9.dyOux31K1YAP5BNOpG8zroNiStN9w0Xj-bbA3eSv3AfQze8B7tHuGk6y1TTPEQd_pG8YbzjJRp2cBB4UMxs-XQ' \
+  -H 'content-type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://servicewechat.com/wxf529d08d126a076e/devtools/page-frame.html' \
+  --compressed
+
+###
+curl 'http://localhost:8040/api/v1/threeactuals/populations/wx/identification/audit'
+-X PUT \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-d '{
+  "id": "csdls4rnkb2maht9g0sg",
+  "audit_status":4,
+  "audit_remark":"通过"
+}'
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/holiday-year-setings' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5MjkzOTksImlhdCI6MTcyOTg0Mjk5OSwibmJmIjoxNzI5ODQyOTk5LCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.LkOOEOUT_FWjf_85Ltmf_kUy3GD48z_sL3zZ6ujkoVz47GK83bxTE6n2EvZDkCcWxzWoUiKqeO6Sh7aPJUwsbw' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: http://192.168.3.2:8000' \
+  -H 'Referer: http://192.168.3.2:8000/system/holiday' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --data-raw '{"year":"1989","daysSeting":[{"holiday_classify":1,"holiday_date_start":"2024-10-01","holiday_date_end":"2024-10-07","holiday_type":1},{"holiday_classify":1,"holiday_replace_dates":"2024-10-12,2024-10-13","holiday_type":2},{"holiday_classify":2,"holiday_date_start":"2024-10-01","holiday_date_end":"2024-10-07","holiday_type":1},{"holiday_classify":2,"holiday_replace_dates":"2024-10-12","holiday_type":2},{"holiday_classify":3,"holiday_date_start":"2024-10-01","holiday_date_end":"2024-10-07","holiday_type":1},{"holiday_classify":3,"holiday_replace_dates":"2024-10-12","holiday_type":2},{"holiday_classify":4,"holiday_date_start":"2024-10-01","holiday_date_end":"2024-10-07","holiday_type":1},{"holiday_classify":4,"holiday_replace_dates":"2024-10-12","holiday_type":2},{"holiday_classify":5,"holiday_date_start":"2024-10-01","holiday_date_end":"2024-10-07","holiday_type":1},{"holiday_classify":5,"holiday_replace_dates":"2024-10-12","holiday_type":2},{"holiday_classify":6,"holiday_date_start":"2024-10-01","holiday_date_end":"2024-10-07","holiday_type":1},{"holiday_classify":6,"holiday_replace_dates":"","holiday_type":2},{"holiday_classify":7,"holiday_date_start":"2024-10-01","holiday_date_end":"2024-10-07","holiday_type":1},{"holiday_classify":7,"holiday_replace_dates":"","holiday_type":2}]}' \
+  --insecure
+
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos/csdjj33nkb2m5ols0880' \
+  -X 'PUT' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5MTkyOTQsImlhdCI6MTcyOTgzMjg5NCwibmJmIjoxNzI5ODMyODk0LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.EylBbqMht3F-xvI0k84mK21wKvp_N-X2I2dpChAau1rVw2dSjdgjPsQUkyzzWOwLi09v3lRxJrww67BJFZfaAQ' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Origin: http://localhost:8000' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/propertyNotice' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw '{"title":"acc","plot_ids":["cs2a8j3511in6dsu7rg0"],"is_targeted_publishing":1,"desc":"<p>121211</p>","is_top":0,"picture_links":["infoDelivery/propertyNotice/csdjj23nkb2m5ols086g/answeringSituation.png"],"is_immediately":1,"expire_time":"2024-10-25T14:24:04+08:00","readable_list":[{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"co9k79jnkb2mjq32adk0"},{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"co9k7mrnkb2mjq32aeb0"},{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"co9k823nkb2mjq32af20"},{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"co9ki9rnkb2mjq32bj80"},{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"co9kirjnkb2mjq32bmkg"},{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"co9kj7bnkb2mjq32bop0"},{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"confi5jnkb2ji9updujg"},{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"cs3nctb511ik0ovthof0"},{"plot_id":"co9k79jnkb2mjq32adkg","build_id":"cs89vpbnkb2mn2ec2p7g"},{"plot_id":"co9kgejnkb2mjq32bah0"}]}'
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos?current=1&pageSize=10' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5MTkyOTQsImlhdCI6MTcyOTgzMjg5NCwibmJmIjoxNzI5ODMyODk0LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.EylBbqMht3F-xvI0k84mK21wKvp_N-X2I2dpChAau1rVw2dSjdgjPsQUkyzzWOwLi09v3lRxJrww67BJFZfaAQ' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/propertyNotice' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos/revocation/csdf5kbnkb2m4vpshfeg' \
+  -X 'PUT' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5MTkyOTQsImlhdCI6MTcyOTgzMjg5NCwibmJmIjoxNzI5ODMyODk0LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.EylBbqMht3F-xvI0k84mK21wKvp_N-X2I2dpChAau1rVw2dSjdgjPsQUkyzzWOwLi09v3lRxJrww67BJFZfaAQ' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 0' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Origin: http://localhost:8000' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/propertyNotice' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification/phone/query?user_id=cs9111rnkb2mpm6ba0j0&plot_id=co9k79jnkb2mjq32adkg&audit_status_list=4' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2405020 MicroMessenger/8.0.5 Language/zh_CN webview/' \
+  -H 'platform: mp-weixin' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5MDgzMjAsImlhdCI6MTcyOTgyMTkyMCwibmJmIjoxNzI5ODIxOTIwLCJzdWIiOiJjczkxMTFybmtiMm1wbTZiYTBqMCJ9.IGnNaLowODkZYWnKxYniN7JlJh2KqgoVcuH7xsKDPsW4_AK-5mh-QEVcBBzOn8XJh8ejxfobx3rwZSCKGgSq9w' \
+  -H 'content-type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://servicewechat.com/wxf529d08d126a076e/devtools/page-frame.html' \
+  --compressed
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos?current=1&pageSize=10' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5MDUxMTQsImlhdCI6MTcyOTgxODcxNCwibmJmIjoxNzI5ODE4NzE0LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.p4wQyzvqEhrLZxsq20CgQEur-eYljE0JdgrOSc4yp5TekLnf_PzchYzQs4PRJyhjw1hQcxateuOgfM90AH-8HQ' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/propertyNotice' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk5MDUxMTQsImlhdCI6MTcyOTgxODcxNCwibmJmIjoxNzI5ODE4NzE0LCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.p4wQyzvqEhrLZxsq20CgQEur-eYljE0JdgrOSc4yp5TekLnf_PzchYzQs4PRJyhjw1hQcxateuOgfM90AH-8HQ' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Origin: http://localhost:8000' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/propertyNotice' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw '{"title":"12112","plot_ids":["7_cs2a8j3511in6dsu7rg0"],"is_targeted_publishing":2,"desc":"<p>12121</p>","is_top":0,"is_immediately":1,"expire_time":"2024-10-25T09:12:43+08:00","readable_list":[{"plot_id":"7_cs2a8j3511in6dsu7rg0"}],"picture_links":[],"publish_time":null}'
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification/phone/query?user_id=cs9111rnkb2mpm6ba0j0&plot_id=co9k79jnkb2mjq32adkg&audit_status_list%5B0%5D=4' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2405020 MicroMessenger/8.0.5 Language/zh_CN webview/' \
+  -H 'platform: mp-weixin' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk4MjE1MDcsImlhdCI6MTcyOTczNTEwNywibmJmIjoxNzI5NzM1MTA3LCJzdWIiOiJjczkxMTFybmtiMm1wbTZiYTBqMCJ9.mMvsKl4kgoVeLpcA0p5HXqVxDg38paxzB7zFWa5YLFyEnlIJ6yzn0tOGyZB6EpvrDQ7TdHpOirEqPu_LDWh-Cw' \
+  -H 'content-type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://servicewechat.com/wxf529d08d126a076e/devtools/page-frame.html' \
+  --compressed
+
+
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/holiday-year-setings/csga2n07bmchrr3sl3eg' \
+-X PUT \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-d '{
+	  "year": "1991",
+	  "days_seting": [
+        {
+          "id":"csdll987bmcm2i2srm10",
+          "holiday_type": 1,
+          "holiday_classify": 2,
+          "holiday_date_start": "1991-10-01",
+          "holiday_date_end": "1991-10-08",
+          "holiday_replace_dates": "",
+          "is_updated": true
+        },
+        {
+          "id":"csdll987bmcm2i2srm1g",
+          "holiday_type": 2,
+          "holiday_classify": 2,
+          "holiday_date_start": null,
+          "holiday_date_end": null,
+          "holiday_replace_dates": "2024-10-24,2024-10-25,2024-10-26,2024-10-27",
+          "is_updated": true
+        }
+  ]
+}'
+
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/holiday-year-setings' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/holiday-year-setings/csdjef87bmcmbo0krjm0' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/holiday-year-setings' \
+-X POST \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-d '{
+	  "year": "1991",
+	  "days_seting": [
+        {
+          "holiday_type": 1,
+          "holiday_classify": 2,
+          "holiday_date_start": "2024-10-24",
+          "holiday_date_end": "2024-10-29",
+          "holiday_replace_dates": "",
+          "is_updated": null
+        },
+        {
+          "holiday_type": 2,
+          "holiday_classify": 2,
+          "holiday_date_start": null,
+          "holiday_date_end": null,
+          "holiday_replace_dates": "2024-10-30,2024-10-31",
+          "is_updated": null
+        }
+  ]
+}'
+
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk4MzI4ODIsImlhdCI6MTcyOTc0NjQ4MiwibmJmIjoxNzI5NzQ2NDgyLCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.qJipGlPsR1CYOl9RHv840L6JUkJahyNaS_rDWgGwJrPKGnFghLxcYVfldcABtkSEf85qb-5HJeKOqaSjTof0dg' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Cookie: Webstorm-a52420eb=ab1df2e4-4f18-466a-acc3-6c1306a40e94' \
+  -H 'Origin: http://localhost:8000' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8000/infoDelivery/propertyNotice' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw '{"title":"发放十三点","org_id":["7_cs2a8j3511in6dsu7rg0"],"is_targeted_publishing":2,"desc":"<p>1212121<img src=\"/minio/publicbucket/infoDelivery/propertyNotice/cscv28jnkb2m6e3b6qug/answeringSituation.png\" alt=\"answeringSituation.png\" data-href=\"\" style=\"\"/></p>","is_top":0,"picture_links":["infoDelivery/propertyNotice/cscv29jnkb2m6e3b6r00/correct.png"],"is_immediately":1,"expire_time":"2024-10-24T15:02:58+08:00","publish_time":null}'
+
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/track/cnrqftjnkb2mvah6gqv0?not_add_attendance=0' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk4MTg1NTIsImlhdCI6MTcyOTczMjE1MiwibmJmIjoxNzI5NzMyMTUyLCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.fkXDCE3MoPJW2BnQ1LNIdCVaDSDLqcZ-2GoIeC-vZmonaSSCShUmREdviVgxgXNOgT_FQWh4_qUSnoxZ39JHow' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/clue/track' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification/phone/query?plot_id=co9k79jnkb2mjq32adkg&user_id=root&audit_status=4'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+###
+
+###
+curl 'http://localhost:8040/api/v1/threeactuals/buildings/by_plot?plot_id_list=co9k79jnkb2mjq32adkg'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+
+###
+curl 'http://localhost:8040/api/v1/org_users/by_user_id?current=1&pageSize=5&user_id=csb09srnkb2mu7sv1leg' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk2NjEyNTUsImlhdCI6MTcyOTU3NDg1NSwibmJmIjoxNzI5NTc0ODU1LCJzdWIiOiJyb290In0.8usZrMjO89RMggGQ-OUt4CJKOmuyAnGDoBdqaAqCMuKwx9tsMnpSC3DYGr-pKOncFo6WyOuPM4eCvFXm1l7Myg' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: https://village.dev.nnzhineng.com:20113/system/user' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0' \
+  -H 'sec-ch-ua: "Chromium";v="130", "Microsoft Edge";v="130", "Not?A_Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/track/cnrqftjnkb2mvah6gqv0?track_date=' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk2NTMxMzAsImlhdCI6MTcyOTU2NjczMCwibmJmIjoxNzI5NTY2NzMwLCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.TwSd5jZgmYo8u36IGjVq6jL1J-MrUdrVSUDYClSUPA7fXB8CiDmaFtY5bEX1V4QqN-El1KRqk5OeQRWQ1sKhwA' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8002/clue/track' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos/evaluate/csbhgso7bmcjbi2c4gug' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-X PUT 
+-d '{
+	"evaluate_point": 2,
+	"evaluate_desc": "非常不错"
+}'
+
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos/dispose/csbhgso7bmcjbi2c4gug' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-X PUT 
+-d '{
+	"maintenance_man_desc": "维修完成xxx"
+}'
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos/accept/csbjcl87bmcjbi2c4hhg' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-X PUT \
+
+
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos/cancel/csbj4287bmcjbi2c4h80' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-X PUT \
+
+
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos' \
+-X POST \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-d '{
+	"plot_id": "co9k79jnkb2mjq32adkg",
+	"expected_is_now": 2,
+	"expected_time": "2025-11-19T13:16:44Z",
+	"desc": "尽快上门维修5555",
+	"publisher_phone": "13111111131"
+}'
+
+
+# -d '{
+# 	"plot_id": "co9k79jnkb2mjq32adkg",
+# 	"build_id": "cs3nctb511ik0ovthof0",
+# 	"unit_number": "cnnchkjnkb2mn9ld6plg",
+# 	"layers": "2",
+# 	"room_id": "cs6vokb511ijvpkfumog",
+# 	"expected_is_now": 1,
+# 	"expected_time": null,
+# 	"desc": "尽快上门维修",
+# 	"publisher_phone": "13111111111"
+# }'
+
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos/csbhgso7bmcjbi2c4gug' \
+-X PUT \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+-d '{
+	"plot_id": "co9k79jnkb2mjq32adkg",
+	"expected_is_now": 1,
+	"expected_time": null,
+	"desc": "尽快上门维修444",
+	"publisher_phone": "13111111234"
+}'
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos/csbhgso7bmcjbi2c4gug' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+
+###
+curl 'http://localhost:8040/api/v1/maintenance/maintenance-infos' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+
+
+
+###
+curl 'http://localhost:8040/api/v1/populationevent/flows/statistic/phone/according_grid/event_period?grid_id=6' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjUzMjk1NjI3MTYsImlhdCI6MTcyOTU2NjMxNiwibmJmIjoxNzI5NTY2MzE2LCJzdWIiOiJyb290In0.EOtGhnGpTDWjKnSWHCLIE1sD28GolLQUwD3aAg9UOJhJi5wIp0yy83zvlqV6vXreFa1JTfqJ7fp1EWrVoYafyg' \
+
+###
+curl 'http://localhost:8040/api/v1/task/task-timeds/statistics/phone/according_grid/task_period?grid_id=1&&expire_start_time=2024-10-11T00:00:00%2B08:00' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk1NjM5ODYsImlhdCI6MTcyOTQ3NzU4NiwibmJmIjoxNzI5NDc3NTg2LCJzdWIiOiJyb290In0.NjzB5zQi3XyMQbjpHdJoc3N3mwwQaAxBMRV6t1ZCoH_1rvltriC7Ed0CorAmTnh2UohkfPKiw4C1yIA3nnHTng' \
+
+
+###
+curl 'http://localhost:8040/api/v1/threeactuals/populations/wx/current/identification' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk1NjM5ODYsImlhdCI6MTcyOTQ3NzU4NiwibmJmIjoxNzI5NDc3NTg2LCJzdWIiOiJyb290In0.NjzB5zQi3XyMQbjpHdJoc3N3mwwQaAxBMRV6t1ZCoH_1rvltriC7Ed0CorAmTnh2UohkfPKiw4C1yIA3nnHTng' \
+  
+
+
+
+###
+curl 'http://localhost:8040/api/v1/focusfollow/electricity-consumes/statistics/thirty_day/cr5u93jnkb2ko9envbn0?start_time=2024-10-01T00:00:00%2B08:00&end_time=2024-10-18T15:23:13%2B08:00' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjk1NjM5ODYsImlhdCI6MTcyOTQ3NzU4NiwibmJmIjoxNzI5NDc3NTg2LCJzdWIiOiJyb290In0.NjzB5zQi3XyMQbjpHdJoc3N3mwwQaAxBMRV6t1ZCoH_1rvltriC7Ed0CorAmTnh2UohkfPKiw4C1yIA3nnHTng' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/focusfollow/help_alone_old' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+###
+curl 'http://localhost:8040/api/v1/usermessage/user-messages?current=1&pageSize=10&start_time=2024-10-01T00%3A00%3A00%2B08%3A00&end_time=2024-10-04T09%3A00%3A00%2B08%3A00&user_id=cnrqftjnkb2mvah6gqv0' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkzMDIzNzEsImlhdCI6MTcyOTIxNTk3MSwibmJmIjoxNzI5MjE1OTcxLCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.aNauAqpFCOhPmh6rvi3LNOZVJtH-BKQO82lwMOkwM8P5hpnUaFjHowiCpaSJkMFU4G6cOnmkbYGLx46uwR-qmQ' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/system/user' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/usermessage/user-messages/pending/pop/1' \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkzMDI2MjQsImlhdCI6MTcyOTIxNjIyNCwibmJmIjoxNzI5MjE2MjI0LCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.Z65O9rNIrdo2_ZFHnxO-XVDXIZN2AH01cex_2pDyL9cxEcNiWmuYUDLs14q2evUOZhC4PpCSXLvU0w8vJerqDA' \
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-policy-man-infos/by/wx-user'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkyMjkxMTIsImlhdCI6MTcyOTE0MjcxMiwibmJmIjoxNzI5MTQyNzEyLCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.C5jJXasFK2OYkgHGRtrWgV1Extg0pF8lay11whM00f8iONuv4biVCHKvD9CWRRry4-ZJeBiYdeHg9fsCS4MuMQ' \
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-policy-man-infos/by/wx-user'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkyMTkwNjksImlhdCI6MTcyOTEzMjY2OSwibmJmIjoxNzI5MTMyNjY5LCJzdWIiOiJyb290In0.TZsJOpGdzKdeYFn953c37oIzq3DUu3BUsNNjahl_qMuJj1-6n5MIe_FXIe2lSuf3Ua8GEyzVZs9GQk0G9Lt90w' \
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-policy-man-infos'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkyMTkwNjksImlhdCI6MTcyOTEzMjY2OSwibmJmIjoxNzI5MTMyNjY5LCJzdWIiOiJyb290In0.TZsJOpGdzKdeYFn953c37oIzq3DUu3BUsNNjahl_qMuJj1-6n5MIe_FXIe2lSuf3Ua8GEyzVZs9GQk0G9Lt90w' \
+
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-policy-man-infos'
+-X POST \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkyMjkxMTIsImlhdCI6MTcyOTE0MjcxMiwibmJmIjoxNzI5MTQyNzEyLCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.C5jJXasFK2OYkgHGRtrWgV1Extg0pF8lay11whM00f8iONuv4biVCHKvD9CWRRry4-ZJeBiYdeHg9fsCS4MuMQ' \
+-d '{
+	"title": "物业停电通知",
+	"desc": "物业停电通知 1号-2号停水十天",
+	"picture_links": null,
+	"classify_id": "classId1",
+	"publish_time": "2024-11-19T13:16:44Z",
+	"expire_time": "2025-12-23T13:16:44Z",
+	"is_immediately": 2,
+	"readable_list": [
+		{
+	    "plot_id": "co9k79jnkb2mjq32adkg",
+	    "build_id": "cs89vpbnkb2mn2ec2p7g",
+	    "unit_number": "",
+	    "layers": ""
+    }
+	]
+}'
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-policy-man-infos'
+-X POST \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkyMjkxMTIsImlhdCI6MTcyOTE0MjcxMiwibmJmIjoxNzI5MTQyNzEyLCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.C5jJXasFK2OYkgHGRtrWgV1Extg0pF8lay11whM00f8iONuv4biVCHKvD9CWRRry4-ZJeBiYdeHg9fsCS4MuMQ' \
+-d '{
+	"title": "物业停电通知",
+	"desc": "物业停电通知 1号-2号停水十天",
+	"picture_links": null,
+	"classify_id": "classId1",
+	"publish_time": "2024-11-19T13:16:44Z",
+	"expire_time": "2025-12-23T13:16:44Z",
+	"is_immediately": 2,
+	"readable_list": [
+		{
+	    "plot_id": "co9k79jnkb2mjq32adkg",
+	    "build_id": "cs3nctb511ik0ovthof0",
+	    "unit_number": "cnnchkjnkb2mn9ld6plg",
+	    "layers": "3"
+    }
+	]
+}'
+
+
+
+
+###
+curl 'http://localhost:8040/api/v1/populationevent/wechat/getPhoneNumber' \
+  -H 'Connection: keep-alive' \
+  -H 'platform: mp-weixin' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2405020 MicroMessenger/8.0.5 Language/zh_CN webview/' \
+  -H 'content-type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://servicewechat.com/wxf529d08d126a076e/devtools/page-frame.html' \
+  --data-binary '{"code":"d3d42e6a69b5cb83413384f7cfabb88dfe292dcf640da5dbab827bca25ee8982"}' \
+  --compressed
+
+
+
+###
+curl 'http://localhost:8040/api/v1/threeactuals/populations/wx/identification/audit'
+-X PUT \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkwNjY5NzUsImlhdCI6MTcyODk4MDU3NSwibmJmIjoxNzI4OTgwNTc1LCJzdWIiOiJyb290In0.uLLtWK690VBVVZN4XJ1NkAW9i_vXLp_n2Q93wzQoEmCv3XXsswjNnglUOoMehcmZ_PIG5x_qoctiDCFW0rtK-Q' \
+-d '{
+  "id": "csdls4rnkb2maht9g0sg",
+  "audit_status":4,
+  "audit_remark":"通过"
+}'
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification/revocation/cs7n9n07bmcl020k5j8g' \
+-X PUT \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkwNjY5NzUsImlhdCI6MTcyODk4MDU3NSwibmJmIjoxNzI4OTgwNTc1LCJzdWIiOiJyb290In0.uLLtWK690VBVVZN4XJ1NkAW9i_vXLp_n2Q93wzQoEmCv3XXsswjNnglUOoMehcmZ_PIG5x_qoctiDCFW0rtK-Q' \
+
+
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification/cs7nbfg7bmcl020k5jd0' \
+-X PUT \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkwNjY5NzUsImlhdCI6MTcyODk4MDU3NSwibmJmIjoxNzI4OTgwNTc1LCJzdWIiOiJyb290In0.uLLtWK690VBVVZN4XJ1NkAW9i_vXLp_n2Q93wzQoEmCv3XXsswjNnglUOoMehcmZ_PIG5x_qoctiDCFW0rtK-Q' \
+-d '{
+	"plot_id": "co9k79jnkb2mjq32adkg",
+	"build_id": "cs3nctb511ik0ovthof0",
+	"room_id": "cs6vokb511ijvpkfumog",
+	"name": "申请人2",
+	"sex": 2,
+	"id_number": "37000119812120012",
+	"id_number_type": "1",
+	"phone": "13111113333",
+	"live_type": 2,
+	"remark": "我才不是什么哥布林555555"
+}'
+
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification' \
+-X POST \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkwNjY5NzUsImlhdCI6MTcyODk4MDU3NSwibmJmIjoxNzI4OTgwNTc1LCJzdWIiOiJyb290In0.uLLtWK690VBVVZN4XJ1NkAW9i_vXLp_n2Q93wzQoEmCv3XXsswjNnglUOoMehcmZ_PIG5x_qoctiDCFW0rtK-Q' \
+-d '{
+	"plot_id": "co9k79jnkb2mjq32adkg",
+	"build_id": "cs3nctb511ik0ovthof0",
+	"room_id": "cs6vokb511ijvpkfumog",
+	"name": "申请人4",
+	"sex": 2,
+	"id_number": "37000119812120014",
+	"id_number_type": "1",
+	"phone": "13111111113",
+	"live_type": 1,
+	"remark": "我才不是什么哥布林"
+}'
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances?pageSize=999&current=1&user_id=cnrqftjnkb2mvah6gqv0&start_at=2024-10-01&end_at=2024-10-31' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkxNDUyMjAsImlhdCI6MTcyOTA1ODgyMCwibmJmIjoxNzI5MDU4ODIwLCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.sAusRsi2GscCQ8CNlWIpIpDqh6zlNa6OdQEjOSAZNQA4Fk8pOWQrswW65Y7XCVHYZzMLXkH_B-j4fsgEANcSOg' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Referer: http://localhost:8080/app/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1'
+
+
+
+
+###
+curl 'http://localhost:8040/api/v1/usermessage/user-messages?current=92&pageSize=10&user_id=cnrqftjnkb2mvah6gqv0' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkxMjcxNzgsImlhdCI6MTcyOTA0MDc3OCwibmJmIjoxNzI5MDQwNzc4LCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.geUNV8SBDvJty52hY9XNW-W2O8x0NyZaXelrdGlY-p594lN1mOIRZTfkC24wG-OByIo7pl66Oi4MvLc8qdh4Tw' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/system/logger' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification' \
+-X POST \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkwNjY5NzUsImlhdCI6MTcyODk4MDU3NSwibmJmIjoxNzI4OTgwNTc1LCJzdWIiOiJyb290In0.uLLtWK690VBVVZN4XJ1NkAW9i_vXLp_n2Q93wzQoEmCv3XXsswjNnglUOoMehcmZ_PIG5x_qoctiDCFW0rtK-Q' \
+-d '{
+	"plot_id": "xxx",
+	"build_id": "xxx",
+	"room_id": "xxx",
+	"name": "申请人1",
+	"sex": 1,
+	"id_number": "1",
+	"id_number_type": "2",
+	"phone": "13111111111",
+	"live_type": 1,
+	"remark": "2"
+}'
+
+###
+curl 'http://localhost:8040/api/v1/users/wx/identification' \
+-X GET \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkwNjY5NzUsImlhdCI6MTcyODk4MDU3NSwibmJmIjoxNzI4OTgwNTc1LCJzdWIiOiJyb290In0.uLLtWK690VBVVZN4XJ1NkAW9i_vXLp_n2Q93wzQoEmCv3XXsswjNnglUOoMehcmZ_PIG5x_qoctiDCFW0rtK-Q' \
+
+
+###
+curl 'http://localhost:8040/api/v1/populationevent/cockpit/statistics/ranking/classify/number?area_id=1&village_id=6' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkwNDQ5MDAsImlhdCI6MTcyODk1ODUwMCwibmJmIjoxNzI4OTU4NTAwLCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.IkoU52tgZgLkFtVPJcZm8SNRL3lZZH9JG4lkEyPwnomZFl1kK_Yav40jZbzYm-fVnJdLLIaDVq88F6DLJcAtIQ' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/multidimensionality/village' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+###
+curl 'http://localhost:8040/api/v1/populationevent/cockpit/statistics/all/analysis?area_id=1&village_id=6' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkwNDQ5MDAsImlhdCI6MTcyODk1ODUwMCwibmJmIjoxNzI4OTU4NTAwLCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.IkoU52tgZgLkFtVPJcZm8SNRL3lZZH9JG4lkEyPwnomZFl1kK_Yav40jZbzYm-fVnJdLLIaDVq88F6DLJcAtIQ' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/multidimensionality/village' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances/statistics_kq_by_grid_id?grid_id=1&start_time=2024-10-01T13:16:44Z' \
+-X GET \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg5Nzk4NzYsImlhdCI6MTcyODg5MzQ3NiwibmJmIjoxNzI4ODkzNDc2LCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.anWhIx9isxSUynazoD94urbaXic5PDF1bc9DobYM0o-Bp7T0mGypKsmQ7mocVa9gOIyOzOReLxB7yexPvUcS7w' \
+-d '{
+  "grid_id":"1"
+}'
+
+
+###
+curl 'http://localhost:8040/api/v1/task/task-timeds/statistics/task_type/according_org?org_id=1&org_type=6' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg5Nzk4NzYsImlhdCI6MTcyODg5MzQ3NiwibmJmIjoxNzI4ODkzNDc2LCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.anWhIx9isxSUynazoD94urbaXic5PDF1bc9DobYM0o-Bp7T0mGypKsmQ7mocVa9gOIyOzOReLxB7yexPvUcS7w' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/multidimensionality/grid' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances/statistics_mrkq?month=2024-09&current=1&pageSize=5' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg5NTQ3ODEsImlhdCI6MTcyODg2ODM4MSwibmJmIjoxNzI4ODY4MzgxLCJzdWIiOiJyb290In0.0SWcC-G8_sRUgVGywJwfkJjqz1zWcLo53exCQQfNB6P4t8mAj8Nix5C7mr_mM6RTQPBKkEDyWEBvvYFaEvyo7A' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: https://shunhuaroad.dev.nnzhineng.com:20111/attendance/statistics' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="129", "Not=A?Brand";v="8", "Chromium";v="129"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg3ODI5NTksImlhdCI6MTcyODY5NjU1OSwibmJmIjoxNzI4Njk2NTU5LCJzdWIiOiJyb290In0.qDkdOOuuBQ4ftl4J9K86FOlAA84JXVr-4NEGhG_Yl-zJ5GM4iVvuiEWdQ1NcsnNU2U67EeqR99O-uyRzr5xZuQ' \
+ 
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos/cs521r07bmcmcj7jr9dg'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg3ODI5NTksImlhdCI6MTcyODY5NjU1OSwibmJmIjoxNzI4Njk2NTU5LCJzdWIiOiJyb290In0.qDkdOOuuBQ4ftl4J9K86FOlAA84JXVr-4NEGhG_Yl-zJ5GM4iVvuiEWdQ1NcsnNU2U67EeqR99O-uyRzr5xZuQ' \
+ 
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos'
+-X POST \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkyMjkxMTIsImlhdCI6MTcyOTE0MjcxMiwibmJmIjoxNzI5MTQyNzEyLCJzdWIiOiJ1c2VyX3Byb3BlcnR5XzAwMSJ9.C5jJXasFK2OYkgHGRtrWgV1Extg0pF8lay11whM00f8iONuv4biVCHKvD9CWRRry4-ZJeBiYdeHg9fsCS4MuMQ' \
+-d '{
+	"title": "物业停电通知",
+	"desc": "物业停电通知 1号-2号停水十天",
+	"picture_links": null,
+	"classify_id": "classId1",
+	"publish_time": "2024-11-19T13:16:44Z",
+	"expire_time": "2025-12-23T13:16:44Z",
+	"is_immediately": 2,
+	"readable_list": [
+		{
+	    "plot_id": "co9k79jnkb2mjq32adkg",
+	    "build_id": "cs89vpbnkb2mn2ec2p7g",
+	    "unit_id": "",
+	    "level": ""
+    }
+	]
+}'
+
+
+###
+curl 'http://localhost:8040/api/v1/notice/notice-property-man-infos/cs521r07bmcmcj7jr9dg'
+-X PUT \
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg3ODI5NTksImlhdCI6MTcyODY5NjU1OSwibmJmIjoxNzI4Njk2NTU5LCJzdWIiOiJyb290In0.qDkdOOuuBQ4ftl4J9K86FOlAA84JXVr-4NEGhG_Yl-zJ5GM4iVvuiEWdQ1NcsnNU2U67EeqR99O-uyRzr5xZuQ' \
+-d '{
+	"title": "物业停水通知2",
+	"desc": "物业停水通知 10号-20号停水十天",
+	"picture_links": null,
+	"classify_id": "classId1",
+	"publish_time": "2024-10-12T13:16:44Z",
+	"expire_time": "2024-10-23T13:16:44Z",
+	"readable_list": [
+		{
+	    "plot_id": "xx1",
+	    "build_id": "xx2",
+	    "unit_id": "xx3",
+	    "level": "5"
+    },
+		{
+	    "plot_id": "xx122",
+	    "build_id": "xx2",
+	    "unit_id": "xx3",
+	    "level": "5"
+    }
+	]
+}'
+
+
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances?current=1&pageSize=10&status=1,2&is_outside=0' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg3ODI5NTksImlhdCI6MTcyODY5NjU1OSwibmJmIjoxNzI4Njk2NTU5LCJzdWIiOiJyb290In0.qDkdOOuuBQ4ftl4J9K86FOlAA84JXVr-4NEGhG_Yl-zJ5GM4iVvuiEWdQ1NcsnNU2U67EeqR99O-uyRzr5xZuQ' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/attendance/loc' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances/999'
+-H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg3MTAyMDEsImlhdCI6MTcyODYyMzgwMSwibmJmIjoxNzI4NjIzODAxLCJzdWIiOiJyb290In0.66DKksMvgLDItrMgfWJorjdsWiYmb0kpFIt32e8wZdsaFAbeP9aQvfuYG76GLE53o4L_imGAkTho97BF3McSTg' \
+  
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances?current=1&pageSize=10&user_name=%E6%9D%8E%E6%88%90&status=1,2' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg3MTAyMDEsImlhdCI6MTcyODYyMzgwMSwibmJmIjoxNzI4NjIzODAxLCJzdWIiOiJyb290In0.66DKksMvgLDItrMgfWJorjdsWiYmb0kpFIt32e8wZdsaFAbeP9aQvfuYG76GLE53o4L_imGAkTho97BF3McSTg' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: https://shunhuaroad.nnzhineng.com:20111/attendance/loc' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="129", "Not=A?Brand";v="8", "Chromium";v="129"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances?pageSize=999&current=1&user_id=cnrqftjnkb2mvah6gqv0&start_at=2024-10-01&end_at=2024-10-31' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg2MzYyNzcsImlhdCI6MTcyODU0OTg3NywibmJmIjoxNzI4NTQ5ODc3LCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.LYjiUh47jNcg0dRo1Y8prcF8KjgUeT-y2z0JUx4cJ_5D8tQMtTCrui22ELsbhh9u5PhxFuI3wVY-CKlG4Uiyiw' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Referer: http://localhost:8080/app/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1'
+
+
+###
+curl 'http://localhost:8040/api/v1/loc/attendances/statistics_xbkq?month=2024-09' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg3MTAyMDEsImlhdCI6MTcyODYyMzgwMSwibmJmIjoxNzI4NjIzODAxLCJzdWIiOiJyb290In0.66DKksMvgLDItrMgfWJorjdsWiYmb0kpFIt32e8wZdsaFAbeP9aQvfuYG76GLE53o4L_imGAkTho97BF3McSTg' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: https://shunhuaroad.dev.nnzhineng.com:20111/attendance/statistics' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0' \
+  -H 'sec-ch-ua: "Microsoft Edge";v="129", "Not=A?Brand";v="8", "Chromium";v="129"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:8040/api/v1/loc/track?current=1&pageSize=5&search_date=2024-10-11T00:00:00%2B08:00&order_asc=true' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjg2OTUxNTksImlhdCI6MTcyODYwODc1OSwibmJmIjoxNzI4NjA4NzU5LCJzdWIiOiJjbnJxZnRqbmtiMm12YWg2Z3F2MCJ9.3yY_WTFIj1dMBwTvn5W7jhinxP-AkldHusbTvReJ0rsD7o_gpbzP4ho2K1iNLwEEQyYt2WCtJ8onBly15CJJXw' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://192.168.3.2:8000/clue/track' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
+  --insecure

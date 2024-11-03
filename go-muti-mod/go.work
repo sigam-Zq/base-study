@@ -1,0 +1,16 @@
+go 1.23.0
+
+toolchain go1.23.2
+
+use (
+	.
+	./example
+	./example/hello
+	./example/helloserver
+	./example/outyet
+	./example/ragserver/ragserver
+	./example/ragserver/ragserver-genkit
+	./example/ragserver/ragserver-langchaingo
+	// ./hello@v0.0.0-20241014184706-d7b0ac127859
+	./one-submod
+)
