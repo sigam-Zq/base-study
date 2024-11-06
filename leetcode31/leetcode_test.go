@@ -99,7 +99,7 @@ func resultsArray(nums []int, k int) []int {
 		isInc := true
 		for ii, v := range subList[1:] {
 			log.Printf("subList %v  in   for -- ii %d\n", subList, ii)
-			if v-subList[ii] <= 0 {
+			if v-subList[ii] != 1 {
 				isInc = false
 			}
 		}
