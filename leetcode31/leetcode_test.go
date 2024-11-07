@@ -1,6 +1,7 @@
 package leetcode31
 
 import (
+	"fmt"
 	"log"
 	"reflect"
 	"strconv"
@@ -77,6 +78,12 @@ func TestXxx(t *testing.T) {
 			k:    2,
 			want: []int{3, 4},
 		},
+		{
+			f:    resultsArrayOptimize,
+			nums: []int{3, 2, 3, 2, 3, 2},
+			k:    2,
+			want: []int{-1, 3, -1, 3, -1},
+		},
 	} {
 		t.Run(strconv.Itoa(idx)+"-test", func(t *testing.T) {
 			if got := v.f(v.nums, v.k); !reflect.DeepEqual(v.want, got) {
@@ -112,4 +119,68 @@ func resultsArray(nums []int, k int) []int {
 		i++
 	}
 	return result
+}
+
+func resultsArrayOptimize(nums []int, k int) []int {
+	// 加入数组的连续递增缓存 true 表示满足条件
+	isIncCache := make([]bool, len(nums))
+	isIncCache[0] = true
+	for i := 1; i < len(nums); i++ {
+		if nums[i]-nums[i-1] == 1 {
+			isIncCache[i] = true
+		} else {
+			isIncCache[i] = false
+		}
+	}
+	fmt.Printf("isIncCache %v \n", isIncCache)
+	res := make([]int, 0)
+	for i := 0; i <= len(nums)-k; i++ {
+
+		// 当前如果最后一位 小于k 直接加 -1 跳转下一次
+		if nums[i+k-1] < k {
+			res = append(res, -1)
+			continue
+		}
+
+		if i == 0 {
+			// 第一次要全量判断
+			if AndBool(isIncCache[i+1 : i+k]...) {
+				res = append(res, nums[i+k-1])
+			} else {
+				res = append(res, -1)
+			}
+		} else {
+			// 第二次往上判断前面的res 是否符合条件
+			fmt.Printf("isIncCache[i+k-1] %v i %d k %d isIncCache[i : i+k] %v  \n", isIncCache[i+k-1], i, k, isIncCache[i:i+k])
+
+			if isIncCache[i+k-1] && res[len(res)-1] != -1 {
+				// 上次为递增 且 下一个位置也是递增 总体就是递增
+				res = append(res, nums[i+k-1])
+			} else if !isIncCache[i+k-1] {
+				// 当前位数不满足 不用判断前面 也是不满足
+				res = append(res, -1)
+			} else {
+				fmt.Printf("--全量判断--\n")
+				fmt.Printf("--isIncCache[i : i+k] %v--\n", isIncCache[i:i+k])
+				//全量判断
+				if AndBool(isIncCache[i+1 : i+k]...) {
+					res = append(res, nums[i+k-1])
+				} else {
+					res = append(res, -1)
+				}
+			}
+		}
+	}
+
+	return res
+}
+
+func AndBool(flagValue ...bool) bool {
+	var res bool
+	res = flagValue[0]
+	for _, v := range flagValue {
+		res = res && v
+	}
+
+	return res
 }
