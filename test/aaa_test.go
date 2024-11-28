@@ -1,10 +1,15 @@
 package test
 
-import "testing"
+import (
+	"log"
+	"strings"
+	"testing"
+)
 
 func TestXxx(t *testing.T) {
-	var a int
 
-	a += 2 + 1
-	t.Log(a)
+	log.Printf(strings.TrimSpace(`111
+	
+	
+	---`))
 }
