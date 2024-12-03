@@ -102,6 +102,7 @@ func solveNQueens(n int) int {
 
 func TestBitOp(t *testing.T) {
 	fmt.Printf(" %b \n", (1<<3 - 1))
+	fmt.Printf(" %cn \n", (1<<3 - 1))
 	fmt.Printf(" %8b \n", 8)
 	fmt.Printf(" %b \n", (1<<3-1)&^8)
 	fmt.Printf(" %b \n", 3)
@@ -111,6 +112,7 @@ func TestBitOp(t *testing.T) {
 	fmt.Printf("-5 = %b \n", -5)
 	fmt.Printf(" %b   %b \n", 4, -4)
 	fmt.Printf(" %b  \n", 4&-4)
+	fmt.Printf(" %b   %b x&y %b  \n", 10, (1 << 2), 10&(1<<1))
 }
 
 // 位 回溯
