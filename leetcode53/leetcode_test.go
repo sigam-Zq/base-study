@@ -127,3 +127,46 @@ func minMovesToCaptureTheQueen(a int, b int, c int, d int, e int, f int) int {
 
 	return 2
 }
+
+/*
+方法一：分类讨论
+思路与算法
+
+根据棋盘中 车 的移动规则可以知道，对于棋盘中任意的位置 (x,y)，位置 (i,j) 的 车 至多需要 2 步即可移动到指定位置 (x,y)，移动方法如下：
+
+对于 车 来说，可以从起始位置 (i,j) 先垂直移动到 (x,j)，再水平移动到 (x,y)，或者先水平移动到 (i,y)，再垂直移动到 (x,y)；
+如果 白色象、黑皇后 处在同一条对角线或者 白色车、黑皇后 处于同一条线上，此时可能只需要 1 次移动即可捕获 黑皇后，根据题意分析如下：
+
+如果 白色象 与 黑皇后 处在同一条对角线时，且此时该路径上无 白色车 阻挡时，此时只需移动 1 次即可捕获 黑皇后；
+
+如果 白色车 与 黑皇后 处在同一行或者同一列时，且此时二者移动路线之间无 白色象 阻挡时，此时只需移动 1 次即可捕获 黑皇后；
+
+其余情况下，白色车 最多需要 2 次移动即可捕获 黑皇后；
+
+作者：力扣官方题解
+链接：https://leetcode.cn/problems/minimum-moves-to-capture-the-queen/solutions/2995567/bu-huo-hei-huang-hou-xu-yao-de-zui-shao-vxmt1/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+*/
+func minMovesToCaptureTheQueenLeetCode(a int, b int, c int, d int, e int, f int) int {
+	// 车与皇后处在同一行，且中间没有象
+	if a == e && (c != a || d <= min(b, f) || d >= max(b, f)) {
+		return 1
+	}
+	// 车与皇后处在同一列，且中间没有象
+	if b == f && (d != b || c <= min(a, e) || c >= max(a, e)) {
+		return 1
+	}
+	// 象、皇后处在同一条对角线，且中间没有车
+	if abs(c-e) == abs(d-f) && ((c-e)*(b-f) != (a-e)*(d-f) || a < min(c, e) || a > max(c, e)) {
+		return 1
+	}
+	return 2
+}
+
+func abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
