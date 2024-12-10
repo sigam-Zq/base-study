@@ -106,7 +106,7 @@ func RegisterSigningMethod(alg string, f func() SigningMethod) {
 
 func main() {
 
-	res, err := genJwt("root")
+	res, err := genJwt("cslj35rnkb2nrr54nbog")
 	if err != nil {
 		panic(err)
 	}
