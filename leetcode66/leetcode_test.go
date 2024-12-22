@@ -198,3 +198,21 @@ func minAnagramLengthLeetCode(s string) int {
 // 链接：https://leetcode.cn/problems/minimum-length-of-anagram-concatenation/solutions/3014840/tong-wei-zi-fu-chuan-lian-jie-de-zui-xia-74z1/
 // 来源：力扣（LeetCode）
 // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+func TestEqSlice(t *testing.T) {
+	a := []int{1, 2, 3}
+	// b := []int{1, 2, 3}
+	t.Logf("type %T\n", a)
+	t.Logf("type %s\n", reflect.TypeOf(a).Kind())
+	//invalid operation: a == b (slice can only be compared to nil)
+	// t.Log(a == b)
+	// 数组对象可以 对比  但是 切片对象不行
+	var a2 [26]int
+	var b2 [26]int
+	t.Logf("type %T\n", a2)
+	t.Logf("type %s\n", reflect.TypeOf(a2).Kind())
+	a2[1] = 2
+	b2[1] = 1
+	t.Log(a2 == b2)
+
+}
