@@ -7,6 +7,8 @@ import (
 	"testing"
 )
 
+// https://leetcode.cn/problems/sort-integers-by-the-power-value/solutions/168355/jiang-zheng-shu-an-quan-zhong-pai-xu-by-leetcode-s/?envType=daily-question&envId=2024-12-22
+
 func TestXxx(t *testing.T) {
 
 	for i, v := range []struct {
