@@ -1,6 +1,7 @@
 package leetcode83
 
 import (
+	"log"
 	"reflect"
 	"strconv"
 	"testing"
@@ -243,3 +244,116 @@ func update(diff []int, c, add int, cnt *int) {
 // 链接：https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/solutions/3037271/tong-ji-zhong-xin-pai-lie-hou-bao-han-li-2kiv/
 // 来源：力扣（LeetCode）
 // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+/*
+方法一：哈希表 + 二分
+思路与算法
+
+我们的目标是求解 word1 中有多少子串经过重新排列后存在一个前缀是 word2，也就是说要求解有多少子串包含 word2 中的全部字符。
+
+对于每个 l(1≤l≤n)，找到最小的 r(l≤r≤n)，使得 word1 区间 [l,r] 内包含 word2 的全部字符，可以发现子串 [l,r+1],[l,r+2],⋯,[l,n] 都是满足要求的，计数 n−r+1 。将所有的计数都加起来就是答案。
+
+而找到每个 l 对应的最小的 r 可以使用二分算法，我们提前预处理出 word2 中所有字符的出现次数，再预处理 word1 每个前缀中每种字符的出现次数。因此在二分查找 r 的过程中，可以 O(C) 时间判断是否满足要求（C 是字符数量，此处等于 26），而那个最小的那个满足要求的下标就是我们要找的 r。
+
+由于本方法时间复杂度较高，有些语言可能会超时，建议学习方法二
+
+*/
+
+// 作者：力扣官方题解
+// 链接：https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/solutions/3037271/tong-ji-zhong-xin-pai-lie-hou-bao-han-li-2kiv/
+// 来源：力扣（LeetCode）
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+func TestXxx2(t *testing.T) {
+
+	for i, v := range []struct {
+		f       func(string, string) int64
+		word1   string
+		word2   string
+		want    int64
+		isDebug bool
+	}{
+		{
+			f:       validSubstringCountLeetCode2,
+			word1:   "bcca",
+			word2:   "abc",
+			want:    int64(1),
+			isDebug: false,
+		},
+		// {
+		// 	f:       validSubstringCount,
+		// 	word1:   "abcabc",
+		// 	word2:   "abc",
+		// 	want:    int64(10),
+		// 	isDebug: false,
+		// },
+		// {
+		// 	f:       validSubstringCount,
+		// 	word1:   "bbbb",
+		// 	word2:   "b",
+		// 	want:    int64(10),
+		// 	isDebug: false,
+		// },
+		// {
+		// 	f:       validSubstringCount,
+		// 	word1:   "dcbdcdccb",
+		// 	word2:   "cdd",
+		// 	want:    int64(18),
+		// 	isDebug: false,
+		// },
+	} {
+
+		t.Run(strconv.Itoa(i), func(t *testing.T) {
+			ans := v.f(v.word1, v.word2)
+			if !reflect.DeepEqual(ans, v.want) {
+				t.Errorf("got %v want %v", ans, v.want)
+			}
+		})
+	}
+}
+
+func validSubstringCountLeetCode2(word1 string, word2 string) int64 {
+	count := make([]int, 26)
+	for _, c := range word2 {
+		count[c-'a']++
+	}
+	n := len(word1)
+	preCount := make([][]int, n+1)
+	for i := range preCount {
+		preCount[i] = make([]int, 26)
+	}
+	for i := 1; i <= n; i++ {
+		copy(preCount[i], preCount[i-1])
+		preCount[i][word1[i-1]-'a']++
+	}
+	log.Println("count")
+	log.Println(count)
+	log.Println("preCount")
+	log.Println(preCount)
+	var res int64
+	for l := 1; l <= n; l++ {
+		r := get(l, n+1, preCount, count)
+		res += int64(n - r + 1)
+	}
+	return res
+}
+
+func get(l, r int, preCount [][]int, count []int) int {
+	border := l
+	for l < r {
+		m := (l + r) >> 1
+		f := true
+		for i := 0; i < 26; i++ {
+			if preCount[m][i]-preCount[border-1][i] < count[i] {
+				f = false
+				break
+			}
+		}
+		if f {
+			r = m
+		} else {
+			l = m + 1
+		}
+	}
+	return l
+}
