@@ -256,4 +256,7 @@ func TestDeepCopy2(t *testing.T) {
 	// leetcode_test.go:254: arr3 [1 2 4 5 6 6]  arr4 [1 2 4 5 6]
 	t.Logf("arr3 %p  arr4 %p \n", arr3, arr4)
 	t.Logf("arr3 %v  arr4 %v \n", arr3, arr4)
+
+	_ = append(arr3[:1], arr3[3:]...)
+	t.Logf("arr3 %v   \n", arr3)
 }
