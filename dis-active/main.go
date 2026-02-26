@@ -50,6 +50,8 @@ func main() {
 			for _, v := range dataList[1:] {
 				// dis += CalcCoordsDistance(Point{p.Lon, p.Lat}, Point{v.Lon, v.Lat})
 				dis += Distance(p.Lon, p.Lat, v.Lon, v.Lat)
+				p.Lat = v.Lat
+				p.Lon = v.Lon
 			}
 		}
 
