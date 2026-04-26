@@ -113,26 +113,26 @@ import (
 	"plugin-sche/schema"
 )
 
+// writeError writes a structured error response to stdout and exits with code 1.
+// This ensures the scheduler always receives valid JSON, even on failure.
+func writeError(msg string) {
+	resp := schema.Response{Status: "error", Error: msg}
+	out, _ := json.Marshal(resp)
+	fmt.Println(string(out))
+	os.Exit(1)
+}
+
 // Plugin entry point
 func main() {
-	// Read request from stdin
-	// input, err := io.ReadAll(os.Stdin)
-	// if err != nil {
-	// 	fmt.Fprintf(os.Stderr, "Error reading input: %%v\n", err)
-	// 	os.Exit(1)
-	// }
 	if len(os.Args) < 2 {
-		fmt.Println("no input")
-		return
+		writeError("missing input argument")
 	}
 
 	input := os.Args[1]
 
-
 	var req schema.Request
 	if err := json.Unmarshal([]byte(input), &req); err != nil {
-		fmt.Fprintf(os.Stderr, "Error unmarshalling request: %%v\n", err)
-		os.Exit(1)
+		writeError(fmt.Sprintf("invalid JSON input: %%v", err))
 	}
 
 	// Execute plugin logic
@@ -141,8 +141,7 @@ func main() {
 	// Write response to stdout
 	output, err := json.Marshal(resp)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error marshalling response: %%v\n", err)
-		os.Exit(1)
+		writeError(fmt.Sprintf("failed to marshal response: %%v", err))
 	}
 	fmt.Println(string(output))
 }
@@ -154,7 +153,7 @@ func execute(req schema.Request) schema.Response {
 
 	return schema.Response{
 		Status: "success",
-		Data:   map[string]interface{}{"data": fmt.Sprintf("Hello from %%s! msg %%s!", %q, req.Data)},
+		Data:   map[string]interface{}{"data": fmt.Sprintf("Hello from %%s!", %q)},
 		Error:  "",
 	}
 }
@@ -214,20 +213,36 @@ func (pm *PluginManager) resolvePluginCommand(plugin *schema.PluginMeta, args []
 		fmt.Fprintf(os.Stderr, "DEBUG resolvePluginCommand: runtime.GOOS %s \n", runtime.GOOS)
 
 	}
-	// On Windows, check for .exe first, then raw entry, then go run main.go
+	// On Windows, check for .exe first, then raw entry (non-.go), then go run <entry>.go
 	if runtime.GOOS == "windows" {
 		if pm.isRegularFile(entryPath + ".exe") {
 			return entryPath + ".exe", args, nil
 		}
-		if pm.isRegularFile(entryPath) { // Could be a .bat, .cmd, or script without extension
+		// Avoid accidentally executing a .go source file as a binary.
+		if pm.isRegularFile(entryPath) && !strings.HasSuffix(entryPath, ".go") {
 			return entryPath, args, nil
+		}
+		// Fall back to `go run` using the entry's .go source or main.go.
+		entryGoPath := entryPath
+		if !strings.HasSuffix(entryGoPath, ".go") {
+			entryGoPath += ".go"
+		}
+		if pm.isRegularFile(entryGoPath) {
+			return "go", append([]string{"run", entryGoPath}, args...), nil
 		}
 		if pm.isRegularFile(mainGoPath) {
 			return "go", append([]string{"run", mainGoPath}, args...), nil
 		}
-	} else { // On Linux/macOS, check raw entry, then go run main.go
-		if pm.isRegularFile(entryPath) {
+	} else { // On Linux/macOS, check raw entry (non-.go), then go run <entry>.go / main.go
+		if pm.isRegularFile(entryPath) && !strings.HasSuffix(entryPath, ".go") {
 			return entryPath, args, nil
+		}
+		entryGoPath := entryPath
+		if !strings.HasSuffix(entryGoPath, ".go") {
+			entryGoPath += ".go"
+		}
+		if pm.isRegularFile(entryGoPath) {
+			return "go", append([]string{"run", entryGoPath}, args...), nil
 		}
 		if pm.isRegularFile(mainGoPath) {
 			return "go", append([]string{"run", mainGoPath}, args...), nil
@@ -296,38 +311,51 @@ func (pm *PluginManager) RunPlugin(name string, args []string, timeoutOverride t
 	cmd.Stderr = &stderr
 
 	runErr := cmd.Run()
-	// output := []byte{} // Output will be directly to stdout/stderr, so capture nothing here.
 
-	if runErr != nil {
-		runErr = fmt.Errorf("执行插件失败: %v, 命令: %s %v", runErr, commandName, commandArgs)
-	}
-	// Check for context errors (timeout or cancellation)
+	// Check for context errors first (timeout / cancellation) — these take priority.
 	if errors.Is(runCtx.Err(), context.DeadlineExceeded) {
-		runErr = fmt.Errorf("插件 %s 执行超时 (%s): %s", targetPlugin.Meta.Name, effectiveTimeout, runErr)
+		runErr = fmt.Errorf("插件 %s 执行超时 (%s)", targetPlugin.Meta.Name, effectiveTimeout)
 	} else if errors.Is(runCtx.Err(), context.Canceled) {
-		runErr = fmt.Errorf("插件 %s 执行被取消: %s", targetPlugin.Meta.Name, runErr)
-	}
-
-	// 3. 声明结构体，准备接收 JSON
-	var resp *schema.Response = &schema.Response{}
-
-	// 4. 把命令输出的 JSON 直接解析到结构体
-	// 重点：json.Unmarshal 直接解析 stdout.Bytes()
-	err = json.Unmarshal(stdout.Bytes(), resp)
-	if err != nil {
-		// 解析失败，可以把错误信息放进 resp.Error
-		resp.Error = err.Error()
-		return nil, err
-	}
-	// Finalize plugin run status
-	if err := pm.finishPluginRun(&targetPlugin.Meta, runErr); err != nil {
-		if runErr != nil {
-			return resp, fmt.Errorf("%w; 状态写入失败: %v", runErr, err)
+		runErr = fmt.Errorf("插件 %s 执行被取消", targetPlugin.Meta.Name)
+	} else if runErr != nil {
+		stderrStr := strings.TrimSpace(stderr.String())
+		if stderrStr != "" {
+			runErr = fmt.Errorf("执行插件失败: %v\nstderr: %s", runErr, stderrStr)
+		} else {
+			runErr = fmt.Errorf("执行插件失败: %v", runErr)
 		}
-		return resp, err
 	}
 
-	return resp, runErr
+	// If the process failed, finalize status and return the execution error directly
+	// without attempting to parse stdout (which may be empty or partial).
+	if runErr != nil {
+		_ = pm.finishPluginRun(&targetPlugin.Meta, runErr)
+		return nil, runErr
+	}
+
+	// Process exited successfully — parse stdout as a structured Response.
+	var resp schema.Response
+	outBytes := stdout.Bytes()
+	if len(outBytes) == 0 {
+		parseErr := fmt.Errorf("插件 %s 无输出 (stdout 为空)", targetPlugin.Meta.Name)
+		_ = pm.finishPluginRun(&targetPlugin.Meta, parseErr)
+		return nil, parseErr
+	}
+
+	if err = json.Unmarshal(outBytes, &resp); err != nil {
+		stderrStr := strings.TrimSpace(stderr.String())
+		parseErr := fmt.Errorf("解析插件 %s 输出失败: %v (stdout: %q, stderr: %q)",
+			targetPlugin.Meta.Name, err, string(outBytes), stderrStr)
+		_ = pm.finishPluginRun(&targetPlugin.Meta, parseErr)
+		return nil, parseErr
+	}
+
+	// Finalize plugin run status
+	if err := pm.finishPluginRun(&targetPlugin.Meta, nil); err != nil {
+		return &resp, fmt.Errorf("状态写入失败: %v", err)
+	}
+
+	return &resp, nil
 }
 
 // ResetPluginStatus resets all plugin states to their default based on current configurations.

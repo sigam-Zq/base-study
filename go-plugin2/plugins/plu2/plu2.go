@@ -8,26 +8,25 @@ import (
 	"plugin-sche/schema"
 )
 
+// writeError writes a structured error response to stdout and exits with code 1.
+func writeError(msg string) {
+	resp := schema.Response{Status: "error", Error: msg}
+	out, _ := json.Marshal(resp)
+	fmt.Println(string(out))
+	os.Exit(1)
+}
+
 // Plugin entry point
 func main() {
-	// Read request from stdin
-	// input, err := io.ReadAll(os.Stdin)
-	// if err != nil {
-	// 	fmt.Fprintf(os.Stderr, "Error reading input: %v\n", err)
-	// 	os.Exit(1)
-	// }
 	if len(os.Args) < 2 {
-		fmt.Println("no input")
-		return
+		writeError("missing input argument")
 	}
 
 	input := os.Args[1]
 
-
 	var req schema.Request
 	if err := json.Unmarshal([]byte(input), &req); err != nil {
-		fmt.Fprintf(os.Stderr, "Error unmarshalling request: %v\n", err)
-		os.Exit(1)
+		writeError(fmt.Sprintf("invalid JSON input: %v", err))
 	}
 
 	// Execute plugin logic
@@ -36,8 +35,7 @@ func main() {
 	// Write response to stdout
 	output, err := json.Marshal(resp)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error marshalling response: %v\n", err)
-		os.Exit(1)
+		writeError(fmt.Sprintf("failed to marshal response: %v", err))
 	}
 	fmt.Println(string(output))
 }
