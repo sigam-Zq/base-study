@@ -1,0 +1,44 @@
+/*
+Copyright © 2026 NAME HERE <EMAIL ADDRESS>
+*/
+package cmd
+
+import (
+	"context"
+	pluginman "plugin-sche/core"
+
+	"github.com/spf13/cobra"
+)
+
+// reloadCmd represents the load command
+var reloadCmd = &cobra.Command{
+	Use:   "reload",
+	Short: "重新生成status.json状态数据",
+	Long: `A longer description that spans multiple lines and likely contains examples
+and usage of using your command. For example:
+
+Cobra is a CLI library for Go that empowers applications.
+This application is a tool to generate the needed files
+to quickly create a Cobra application.`,
+	RunE: func(cmd *cobra.Command, args []string) error {
+		pm, err := pluginman.NewPluginManager(context.Background(), pluginDir, workDir)
+		if err != nil {
+			return err
+		}
+		return pm.ResetPluginStatus()
+	},
+}
+
+func init() {
+	rootCmd.AddCommand(reloadCmd)
+
+	// Here you will define your flags and configuration settings.
+
+	// Cobra supports Persistent Flags which will work for this command
+	// and all subcommands, e.g.:
+	// loadCmd.PersistentFlags().String("foo", "", "A help for foo")
+
+	// Cobra supports local flags which will only run when this command
+	// is called directly, e.g.:
+	// loadCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+}

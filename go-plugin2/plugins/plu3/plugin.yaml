@@ -1,0 +1,5 @@
+name: plu3
+version: 1.0
+entry: plu3.exe
+timeout: 3s
+enabled: true

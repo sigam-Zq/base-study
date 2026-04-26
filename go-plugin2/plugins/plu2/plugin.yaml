@@ -1,0 +1,5 @@
+name: plu2
+version: "1.0"
+entry: plu2.exe
+enabled: false
+timeout: 3s
