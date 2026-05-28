@@ -1,5 +1,0 @@
-name: timeOut
-version: 1.0
-entry: timeout.exe
-timeout: 3s
-enabled: true
