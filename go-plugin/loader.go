@@ -20,8 +20,8 @@ type PluginLoader interface {
 // 		loader = &UnixPluginLoader{}
 // 	}
 
-// 	return loader.Load(pluginPath, functionName)
-// }
+//		return loader.Load(pluginPath, functionName)
+//	}
 func LoadPlugin(pluginPath string, functionName string) (PluginFunction, error) {
 	loader := NewPluginLoader()
 	return loader.Load(pluginPath, functionName)

@@ -63,7 +63,7 @@ func TestChan(t *testing.T) {
 	}()
 	selectFunc()
 
-	sync.NewCond()
+	// sync.NewCond()
 
 }
 
