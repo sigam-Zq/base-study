@@ -1,0 +1,5 @@
+name: plugin-eg
+version: 1.0
+entry: plugin
+timeout: 3s
+enabled: true

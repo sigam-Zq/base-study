@@ -1,0 +1,5 @@
+name: new-plugin1
+version: 1.0
+entry: new-plugin1.go
+timeout: 3s
+enabled: true
