@@ -6,6 +6,41 @@ import (
 	"testing"
 )
 
+// panic: send on closed channel [recovered, repanicked]
+func TestChanCloseWrite(t *testing.T) {
+	// var nilC chan struct{}
+	nilC := make(chan struct{})
+	close(nilC)
+	nilC <- struct{}{}
+
+}
+
+// {} false 取出空值
+func TestChanCloseRead(t *testing.T) {
+	// var nilC chan struct{}
+	nilC := make(chan struct{})
+	close(nilC)
+	a, ok := <-nilC
+	fmt.Println(a, ok)
+
+}
+
+// 会一直死锁
+func TestChanNilRead(t *testing.T) {
+	var nilC chan struct{}
+
+	<-nilC
+
+}
+
+// 会一直死锁
+func TestChanNilWrite(t *testing.T) {
+	var nilC chan struct{}
+
+	nilC <- struct{}{}
+
+}
+
 func TestChan(t *testing.T) {
 
 	var w sync.WaitGroup
